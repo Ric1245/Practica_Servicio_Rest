@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AlumnoCrudListaActivity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/idCrudAlumnoTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALUMNO"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCrudAlumnoIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#32CD32"
+        android:text="INGRESA ALUMNO"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="41dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCrudAlumnoListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#32CD32"
+        android:text="LISTA"
+        android:textColor="#ffffff"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="109dp"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/idCrudAlumnoListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
